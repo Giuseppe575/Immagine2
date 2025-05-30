@@ -7,42 +7,45 @@
     body {
       margin: 0;
       padding: 0;
-      background: #f0f0f0;
+      background: #ffffff;
+      font-family: sans-serif;
     }
 
     .container {
       position: relative;
       width: 100%;
-      max-width: 1400px;
+      max-width: 1000px;
       margin: auto;
     }
 
     .planimetria {
       width: 100%;
+      height: auto;
       display: block;
     }
 
     .cassone {
       position: absolute;
-      width: 100px; /* Puoi modificare per scala */
-      height: auto;
+      width: 10%; /* proporzionale alla larghezza della planimetria */
     }
   </style>
 </head>
 <body>
 
 <div class="container">
-  <!-- Immagine planimetria -->
+  <!-- Planimetria sfondo -->
   <img src="https://raw.githubusercontent.com/Giuseppe575/Immagine-/refs/heads/main/IMG_1959.png" alt="Planimetria" class="planimetria">
 
-  <!-- 8 cassoni in due file da 4 -->
-  
-  <img src="https://raw.githubusercontent.com/Giuseppe575/Immagine-/refs/heads/main/239BD858-07F9-4EA0-89BE-77BC3E7B72F5.jpeg" class="cassone" style="top: 100px; left: 460px;">
+  <!-- Cassoni (2 file da 4, coordinate in percentuale relative alla planimetria) -->
+  <img src="https://raw.githubusercontent.com/Giuseppe575/cassoni-autoparco/main/cassone-rsu.png" class="cassone" style="top: 65%; left: 10%;">
+  <img src="https://raw.githubusercontent.com/Giuseppe575/cassoni-autoparco/main/cassone-plastica.png" class="cassone" style="top: 65%; left: 23%;">
+  <img src="https://raw.githubusercontent.com/Giuseppe575/cassoni-autoparco/main/cassone-strade.png" class="cassone" style="top: 65%; left: 36%;">
+  <img src="https://raw.githubusercontent.com/Giuseppe575/cassoni-autoparco/main/cassone-indiff.png" class="cassone" style="top: 65%; left: 49%;">
 
-  <img src="https://raw.githubusercontent.com/Giuseppe575/Immagine-/refs/heads/main/239BD858-07F9-4EA0-89BE-77BC3E7B72F5.jpeg" class="cassone" style="top: 230px; left: 100px;">
-  <img src="https://raw.githubusercontent.com/Giuseppe575/Immagine-/refs/heads/main/239BD858-07F9-4EA0-89BE-77BC3E7B72F5.jpeg" class="cassone" style="top: 230px; left: 220px;">
-  <img src="https://raw.githubusercontent.com/Giuseppe575/Immagine-/refs/heads/main/239BD858-07F9-4EA0-89BE-77BC3E7B72F5.jpeg" class="cassone" style="top: 230px; left: 340px;">
-  <img src="https://raw.githubusercontent.com/Giuseppe575/Immagine-/refs/heads/main/239BD858-07F9-4EA0-89BE-77BC3E7B72F5.jpeg" class="cassone" style="top: 230px; left: 460px;">
+  <img src="https://raw.githubusercontent.com/Giuseppe575/cassoni-autoparco/main/cassone-rsu.png" class="cassone" style="top: 75%; left: 10%;">
+  <img src="https://raw.githubusercontent.com/Giuseppe575/cassoni-autoparco/main/cassone-plastica.png" class="cassone" style="top: 75%; left: 23%;">
+  <img src="https://raw.githubusercontent.com/Giuseppe575/cassoni-autoparco/main/cassone-strade.png" class="cassone" style="top: 75%; left: 36%;">
+  <img src="https://raw.githubusercontent.com/Giuseppe575/cassoni-autoparco/main/cassone-indiff.png" class="cassone" style="top: 75%; left: 49%;">
 </div>
 
 </body>
